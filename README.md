@@ -19,8 +19,5 @@ A API REST Node Football é uma aplicação que fornece informações sobre jogo
 ## Contribuição
 Contribuições são bem-vindas! Se você deseja contribuir para o desenvolvimento da API REST Node Football, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Autor
-[Seu Nome](https://github.com/DevEduardoSouza)
-
 ## Licença
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
