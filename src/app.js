@@ -1,13 +1,13 @@
 import express from "express";
+import routes from "./routes/routes.js";
+import { connection } from "./db/connection.js";
 
 const app = express();
 
-const PORT = process.env.PORT || 8000;
+app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.json({ msg: "Olá mundo" });
-});
+app.use(routes);
 
-app.listen(PORT, () => {
-  console.log(`Serve iniciado na porta http://localhost:${PORT}`);
-});
+connection();
+
+export default app;
