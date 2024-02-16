@@ -1,18 +1,18 @@
 export const selectors = {
   liveMatch: {
     homeTeam: {
-      name: ".sc-fqkvVR.sc-dcJsrY.ljIAAI.fFmCDf",
+      name: "event__participant event__participant--home",
       goals:
-        ".sc-fqkvVR.sc-dcJsrY.yBAvw.dnFDDK  div:nth-child(1) span.sc-jEACwC.gWpzMW.currentScore",
+        "div.event__score.event__score--home",
     },
     awayTeam: {
-      name: ".sc-fqkvVR.sc-dcJsrY.gBgQbz.fFmCDf .sc-fqkvVR.sc-dcJsrY.gBgQbz.fFmCDf",
+      name: "event__participant event__participant--away",
       goals:
-        ".sc-fqkvVR.sc-dcJsrY.yBAvw.dnFDDK  div:nth-child(2) span.sc-jEACwC.gWpzMW.currentScore",
+        "div.event__score.event__score--away",
     },
     match: {
-      time: ".sc-jEACwC.aCKmV",
-      league: ".sc-jEACwC.eQYinW",
+      time: "div.event__stage",
+      league: "div.event__title > div.event__titleInfo > div.event__titleBox",
     },
   },
 };

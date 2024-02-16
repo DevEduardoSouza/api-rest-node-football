@@ -31,4 +31,9 @@ const liveMatchScheme = new Schema(
   { timestamps: true }
 );
 
+// Método para iniciar o scraping
+const startScraping = async () => {
+  // Lógica para realizar o scraping e salvar os dados no banco de dados
+};
+
 export const LiveMatchModel = mongoose.model("LiveMatch", liveMatchScheme);

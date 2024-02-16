@@ -1,0 +1,2 @@
+- Ná página de todos tbm tem jogos aovivo
+- Fazer o clique em aovivo funcionar com puppeteer
